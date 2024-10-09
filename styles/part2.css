@@ -45,3 +45,39 @@ div {
 /* DO NOT CHANGE ANY CSS _ABOVE_ THIS LINE */
 
 /* TODO: Change the CSS here */
+
+@media (max-width: 1200px) {
+  .orange {
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 1100px) {
+  .yellow {
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 1000px) {
+  .green {
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .blue {
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .indigo {
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  .violet {
+    flex-grow: 1;
+  }
+}

@@ -35,8 +35,18 @@ main {
 
 /* TODO: Change the CSS here */
 
-@media (min-width: 800) {
-  flex-direction: column;
+@media (max-width: 800px) {
+  main {
+    flex-direction: column;
+  }
+
+  .green {
+    order: 3;
+  }
+
+  .yellow {
+    order: 2;
+  }
 
   .red {
     order: 1;
