@@ -1,0 +1,44 @@
+/* DO NOT CHANGE ANY CSS _BELOW_ THIS LINE */
+
+body {
+  background-color: #dbdbdb;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  min-height: 200px;
+  min-width: 200px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+/* DO NOT CHANGE ANY CSS _ABOVE_ THIS LINE */
+
+/* TODO: Change the CSS here */
+
+@media (min-width: 800) {
+  flex-direction: column;
+
+  .red {
+    order: 1;
+  }
+}

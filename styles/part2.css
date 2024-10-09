@@ -1,0 +1,47 @@
+/* DO NOT CHANGE ANY CSS _BELOW_ THIS LINE */
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
+  background-color: #969696;
+}
+
+div {
+  flex-grow: 0;
+}
+
+.red {
+  background-color: #e81416;
+  flex-grow: 1;
+}
+
+.orange {
+  background-color: #ffa500;
+}
+
+.yellow {
+  background-color: #faeb36;
+}
+
+.green {
+  background-color: #79c314;
+}
+
+.blue {
+  background-color: #487de7;
+}
+
+.indigo {
+  background-color: #4b369d;
+}
+
+.violet {
+  background-color: #70369d;
+}
+
+/* DO NOT CHANGE ANY CSS _ABOVE_ THIS LINE */
+
+/* TODO: Change the CSS here */
